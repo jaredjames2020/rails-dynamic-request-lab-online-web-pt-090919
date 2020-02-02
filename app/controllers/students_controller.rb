@@ -5,5 +5,6 @@ class StudentsController < ApplicationController
   
   def show
     @students = Student.find(params[:id])
+    binding.pry
   end
 end
